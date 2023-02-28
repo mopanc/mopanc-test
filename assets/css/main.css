@@ -351,7 +351,7 @@ body {
 /* About
 --------------------------------------------------------------*/
 .about__content {
-  max-width: 50rem;
+  max-width: 45rem;
   margin: auto;
   margin-bottom: 2rem;
   text-align: center;
@@ -508,6 +508,7 @@ body {
   height: 200px;
   width: 300px;
   margin-bottom: 2rem;
+  border-radius: 6px;
 }
 
 .project__title {
@@ -891,4 +892,44 @@ input:checked + .slider {
 input:checked + .slider:before {
   transform: translateX(-18px);
   background-color: hsl(230, 17%, 14%);
+}
+
+@media screen and (max-width: 968px) {
+  .skills__content {
+    padding: 0.5rem;
+  }
+  .testimonial__card {
+    padding: 2rem 1rem;
+  }
+  .testimonial__img {
+    max-width: 100%;
+  }
+  .footer__content {
+    align-items: center;
+  }
+  .social_links {
+    display: grid;
+    justify-content: center;
+  }
+  .footer__title {
+    margin: auto;
+    align-items: center;
+    padding-bottom: 1rem;
+  }
+  .skills__wrapper {
+    gap: 1rem;
+  }
+  .contact__content-cert {
+    display: block;
+  }
+  .contact__img-cert {
+    width: 300px;
+    height: 180px;
+
+  }
+  .contact__title-cert {
+    margin-top: 2rem;
+    text-align: center;
+  }
+
 }
