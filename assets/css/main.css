@@ -894,6 +894,10 @@ input:checked + .slider:before {
   background-color: hsl(230, 17%, 14%);
 }
 
+.contact__description-cert {
+  text-align: left;
+}
+
 @media screen and (max-width: 968px) {
   .skills__content {
     padding: 0.5rem;
