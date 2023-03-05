@@ -351,7 +351,7 @@ body {
 /* About
 --------------------------------------------------------------*/
 .about__content {
-  max-width: 45rem;
+  max-width: 50rem;
   margin: auto;
   margin-bottom: 2rem;
   text-align: center;
@@ -508,7 +508,6 @@ body {
   height: 200px;
   width: 300px;
   margin-bottom: 2rem;
-  border-radius: 6px;
 }
 
 .project__title {
@@ -618,9 +617,10 @@ body {
 }
 
 .contact__img-cert {
-  height: 120px;
-  width: 200px;
+  max-height: 120px;
+  min-width: 200px;
   margin-right: 2rem;
+  border-radius: 6px;
 }
 
 .contact__content {
@@ -635,6 +635,10 @@ body {
 
 .contact__description {
   margin-bottom: 2rem;
+}
+
+.contact__description-cert {
+  text-align: left;
 }
 
 /* Footer
@@ -892,48 +896,4 @@ input:checked + .slider {
 input:checked + .slider:before {
   transform: translateX(-18px);
   background-color: hsl(230, 17%, 14%);
-}
-
-.contact__description-cert {
-  text-align: left;
-}
-
-@media screen and (max-width: 968px) {
-  .skills__content {
-    padding: 0.5rem;
-  }
-  .testimonial__card {
-    padding: 2rem 1rem;
-  }
-  .testimonial__img {
-    max-width: 100%;
-  }
-  .footer__content {
-    align-items: center;
-  }
-  .social_links {
-    display: grid;
-    justify-content: center;
-  }
-  .footer__title {
-    margin: auto;
-    align-items: center;
-    padding-bottom: 1rem;
-  }
-  .skills__wrapper {
-    gap: 1rem;
-  }
-  .contact__content-cert {
-    display: block;
-  }
-  .contact__img-cert {
-    width: 300px;
-    height: 180px;
-
-  }
-  .contact__title-cert {
-    margin-top: 2rem;
-    text-align: center;
-  }
-
 }

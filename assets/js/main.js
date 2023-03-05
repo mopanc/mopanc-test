@@ -100,7 +100,7 @@ function toggleDarkMode() {
     case true:
       darkMode = false;
       document.body.style.backgroundColor = "white";
-      document.getElementsByClassName("header")[0].style.backgroundColor = "white";
+      document.getElementsByClassName("header")[0].style.backgroundColor = "#f8f8f8";
       document.getElementsByClassName("qualification__name")[0].style.color = "#1a1a1a";
       document.getElementsByClassName("skills__title")[0].style.color = "#1a1a1a";
       document.getElementsByClassName("qualification__footer__projects-text")[0].style.color = "#1a1a1a";
