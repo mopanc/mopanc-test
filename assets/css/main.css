@@ -258,6 +258,9 @@ body {
     align-items: center;
     row-gap: 4rem;
   }
+  .switch {
+    display: none !important;
+  }
 
   .nav__menu {
     position: fixed;
