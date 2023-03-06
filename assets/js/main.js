@@ -108,6 +108,7 @@ function toggleDarkMode() {
       document.getElementsByClassName("btn--secondary")[0].style.backgroundColor = "#1a1a1a";
       document.getElementsByClassName("btn--secondary")[0].style.color = "white";
       document.getElementsByClassName("ri-code-s-slash-line")[0].style.color = "#1a1a1a";
+      document.getElementsByClassName("nav__menu")[0].style.backgroundColor = "#f8f8f8";
       var elements = document.getElementsByClassName("home__info-number");
         for (var i = 0; i < elements.length; i++) {
             elements[i].style.color = "#1a1a1a";
@@ -136,6 +137,7 @@ function toggleDarkMode() {
         document.getElementsByClassName("btn--secondary")[0].style.backgroundColor = "white";
         document.getElementsByClassName("btn--secondary")[0].style.color = "#1a1a1a";
         document.getElementsByClassName("ri-code-s-slash-line")[0].style.color = "white";
+        document.getElementsByClassName("nav__menu")[0].style.backgroundColor = "#1a1a1a";
         var elements = document.getElementsByClassName("home__info-number");
           for (var i = 0; i < elements.length; i++) {
               elements[i].style.color = "white";
