@@ -108,7 +108,9 @@ function toggleDarkMode() {
       document.getElementsByClassName("btn--secondary")[0].style.backgroundColor = "#1a1a1a";
       document.getElementsByClassName("btn--secondary")[0].style.color = "white";
       document.getElementsByClassName("ri-code-s-slash-line")[0].style.color = "#1a1a1a";
+      document.getElementsByClassName("footer__title")[0].style.color = "#1a1a1a";
       document.getElementsByClassName("nav__menu")[0].style.backgroundColor = "#f8f8f8";
+      document.getElementsByClassName("footer")[0].style.backgroundColor = "#f8f8f8";
       var elements = document.getElementsByClassName("home__info-number");
         for (var i = 0; i < elements.length; i++) {
             elements[i].style.color = "#1a1a1a";
@@ -118,6 +120,14 @@ function toggleDarkMode() {
           items[i].style.color = "#eeeaea";
         }
       var title = document.getElementsByClassName("section__title");
+        for (var i = 0; i < title.length; i++) {
+          title[i].style.color = "#1a1a1a";
+        }
+      var title = document.getElementsByClassName("footer__contact");
+        for (var i = 0; i < title.length; i++) {
+          title[i].style.color = "#1a1a1a";
+        }
+      var title = document.getElementsByClassName("footer__social-link");
         for (var i = 0; i < title.length; i++) {
           title[i].style.color = "#1a1a1a";
         }
@@ -137,7 +147,9 @@ function toggleDarkMode() {
         document.getElementsByClassName("btn--secondary")[0].style.backgroundColor = "white";
         document.getElementsByClassName("btn--secondary")[0].style.color = "#1a1a1a";
         document.getElementsByClassName("ri-code-s-slash-line")[0].style.color = "white";
+        document.getElementsByClassName("footer__title")[0].style.color = "white";
         document.getElementsByClassName("nav__menu")[0].style.backgroundColor = "#1a1a1a";
+        document.getElementsByClassName("footer")[0].style.backgroundColor = "#1a1a1a";
         var elements = document.getElementsByClassName("home__info-number");
           for (var i = 0; i < elements.length; i++) {
               elements[i].style.color = "white";
@@ -147,6 +159,14 @@ function toggleDarkMode() {
             items[i].style.color = "white";
           }
         var title = document.getElementsByClassName("section__title");
+          for (var i = 0; i < title.length; i++) {
+            title[i].style.color = "white";
+          }
+        var title = document.getElementsByClassName("footer__contact");
+          for (var i = 0; i < title.length; i++) {
+            title[i].style.color = "white";
+          }
+        var title = document.getElementsByClassName("footer__social-link");
           for (var i = 0; i < title.length; i++) {
             title[i].style.color = "white";
           }
