@@ -67,9 +67,9 @@ window.addEventListener("scroll", () => {
 
 // ScrollReveal animations
 const sr = ScrollReveal({
-  duration: 2000,
+  duration: 1000,
   distance: "100px",
-  delay: 400,
+  delay: 200,
   reset: false,
 });
 
@@ -79,7 +79,7 @@ sr.reveal(".home__img", { origin: "top" });
 sr.reveal(
   ".home__info-wrapper, .skills__title, .skills__content, .qualification__name, .qualification__item, .service__card, .project__content, .testimonial__wrapper, .footer__content",
   {
-    delay: 500,
+    delay: 400,
     interval: 100,
   }
 );
